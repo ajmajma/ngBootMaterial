@@ -1,0 +1,26 @@
+{
+  "name": "ng-boot-material",
+  "version": "0.1",
+  "homepage": "https://github.com/ajmajma/ngBootMaterial",
+  "authors": [
+    "ajmajma"
+  ],
+  "description": "Fix for using bootstrap-material with angular dynmically",
+  "main": "ngBootMaterial.js",
+  "dependencies": {
+    "bootstrap-material-design" : "latest",
+    "angularjs" : "latest"
+  },
+  "keywords": [
+    "material",
+    "design",
+    "bootstrap",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
