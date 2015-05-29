@@ -24,7 +24,7 @@ To use add the directive onto the material bootstrap item like so :
 Requires:
 
 `Jquery`
-`Angular'
+`Angular`
 `bootstrap`
 `bootstrap-material`
 
