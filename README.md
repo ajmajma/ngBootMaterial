@@ -23,12 +23,12 @@ To use add the directive onto the material bootstrap item like so :
 
 Requires:
 
-'Jquery'
-'Angular'
-'bootstrap'
-'bootstrap-material'
+`Jquery`
+`Angular'
+`bootstrap`
+`bootstrap-material`
 
 
-'bower install ng-boot-material'
+`bower install ng-boot-material`
 
 Alternatively, you could use [Angular-Material](https://github.com/angular/material)
