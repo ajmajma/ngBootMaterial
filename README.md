@@ -9,8 +9,11 @@ Ran into an issue where the bootstrap-material items were being brough on dynami
 works for:
 
 `material-input` --> material-input-fix
+
 `material-ripple` --> material-ripple-fix
+
 `material-checkbox` --> material-checkbox-fix
+
 `material-radio` --> material-radio-fix
 
 
@@ -20,10 +23,12 @@ To use add the directive onto the material bootstrap item like so :
 
 Requires:
 
-   'Jquery'
-   'Angular'
-   'bootstrap'
-   'bootstrap-material'
+'Jquery'
+'Angular'
+'bootstrap'
+'bootstrap-material'
 
+
+'bower install ng-boot-material'
 
 Alternatively, you could use [Angular-Material](https://github.com/angular/material)
