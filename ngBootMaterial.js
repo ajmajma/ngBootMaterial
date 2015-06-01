@@ -9,24 +9,24 @@ angular.module('ngBootMaterial', [])
             }
         };
     }).directive('materialRippleFix', function() {
-            return {
+        return {
                 restrict: 'A',
                 link: function(elem, attr, tr) {
-                    $.material.ripples(elem[0]));
+                    $.material.ripples(elem[0]);
             }
         };
     }).directive('materialCheckboxFix', function() {
         return {
             restrict: 'A',
             link: function(elem, attr, tr) {
-                $.material.checkbox(elem[0]));
+                $.material.checkbox(elem[0]);
             }
         };
     }).directive('materialRadioFix', function() {
         return {
             restrict: 'A',
             link: function(elem, attr, tr) {
-                $.material.radio(elem[0]));
+                $.material.radio(elem[0]);
             }
         };
     });
