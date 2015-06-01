@@ -7,10 +7,6 @@
   ],
   "description": "Fix for using bootstrap-material with angular dynmically",
   "main": "ngBootMaterial.js",
-  "dependencies": {
-    "bootstrap-material-design" : "latest",
-    "angularjs" : "latest"
-  },
   "keywords": [
     "material",
     "design",
