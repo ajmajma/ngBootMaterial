@@ -6,7 +6,7 @@
     "ajmajma"
   ],
   "description": "Fix for using bootstrap-material with angular dynmically",
-  "main": "ngBootMaterial.js",
+  "main": "/ngBootMaterial.js",
   "keywords": [
     "material",
     "design",
@@ -15,8 +15,6 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components"
+    ".DS_Store"
   ]
 }
