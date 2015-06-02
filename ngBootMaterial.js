@@ -22,6 +22,16 @@ angular.module('ngBootMaterial', [])
                 $.material.checkbox(elem[0]);
             }
         };
+    })
+    .directive('materialCheckboxFixRepeat', function() {
+        return {
+            restrict: 'A',
+            link: function(elem, attr, tr) {
+               if(elem.$parent.$parent.$last && elem.$last){
+                    $.material.checkbox(elem[0]);
+               }
+            }
+        };
     }).directive('materialRadioFix', function() {
         return {
             restrict: 'A',
